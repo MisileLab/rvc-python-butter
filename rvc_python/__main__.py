@@ -1,5 +1,3 @@
-import argparse
-import sys
 import os
 from argparse import ArgumentParser
 
