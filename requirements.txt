@@ -12,3 +12,7 @@ fairseq
 faiss-cpu
 av
 loguru
+uvicorn
+fastapi
+pydantic
+python-multipart

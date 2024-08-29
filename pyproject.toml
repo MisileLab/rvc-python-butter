@@ -3,10 +3,11 @@ requires = ["hatchling","hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
-name = "rvc-python"
-version = "0.2.0"
+name = "rvc-python-butter"
+version = "0.1.0"
 authors = [
   { name="daswer123", email="daswerq123@gmail.com" },
+  { name="misile", email="misile@duck.com" }
 ]
 description = "Use RVC via console or python scripts"
 readme = "README.md"
@@ -33,11 +34,16 @@ dependencies = [
   "fairseq@git+https://github.com/liyaodev/fairseq",
   "faiss-cpu==1.8.0",
   "av",
+  "loguru",
+  "uvicorn",
+  "fastapi",
+  "pydantic",
+  "python-multipart",
 ]
 
 [project.urls]
-Homepage = "https://github.com/daswer123/rvc-python"
-"Bug Tracker" = "https://github.com/daswer123/rvc-python/issues"
+Homepage = "https://github.com/misilelab/rvc-python-butter"
+"Bug Tracker" = "https://github.com/misilelab/rvc-python-butter/issues"
 
 [tool.hatch.build.targets.wheel]
 only-include=["rvc_python"]
